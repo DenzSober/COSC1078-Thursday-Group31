@@ -46,7 +46,10 @@ The application will also have an optional 'daily' mode, that will allow users t
 ### Outcome
 By providing users with tips, alternatives, and solutions they can do to lower their carbon footprint, hopefully people will take their environmental impact seriously. If more people actively tried to lower their carbon emissions, it could inspire other people to do the same, and eventually get bigger companies and corporations to do the same. With these improvements, the Earth could be around for a whole lot longer than what is currently being projected.
 
-## References
+# Reflection
+The Assignment started off fairly chaotic, but we were able to properly get our work done towards the submission date. Everyone was able to complete their tasks, no matter what it was with no fuss. Once we were able to properly meet with each other it was surprising to me that there was a clear connection with each member, which I think allowed us to work with each other more comfortably. We could have definitely improved by braking up our time up more effectively, and do proper meetings, allocations, and even setting deadlines for work. Since our schedules didn't exactly line up, it was far easier communicating with each other in an informal way, rather than just talking in allocated meetings or in class. Working on this project together, I have learned how effective it is to build a rapport with each other, especially when working on a large project. Using Microsoft Teams was also surprisingly effective, as it allowed us to properly schedule meetings, and even review them if we needed. However, I think using GItHub, especially as a group, was something completely new to everyone, and proved to be more of a struggle than a boon, but in figuring out how to properly use it, I can see how valuable it is as a service.
+
+# References
 Adafruit. (n.d.). Adafruit GEMMA M0 - Miniature wearable electronic platform. [online] www.adafruit.com. Available at: https://www.adafruit.com/product/3501 [Accessed 24 April 2022].
 
 Arduino (2018). Arduino - Introduction. [online] Arduino.cc. Available at: https://www.arduino.cc/en/guide/introduction [Accessed 24 April 2022].
