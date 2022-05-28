@@ -5,135 +5,64 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Pacifico&family=Patrick+Hand&family=Permanent+Marker&family=Roboto+Mono:ital,wght@1,100&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Pacifico&family=Patrick+Hand&family=Permanent+Marker&family=Roboto+Mono:ital,wght@1,100&family=Roboto:wght@300&family=Tapestry&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=IBM+Plex+Sans:wght@100&family=Manrope:wght@200&family=Pacifico&family=Patrick+Hand&family=Permanent+Marker&family=Roboto+Mono:ital,wght@1,100&family=Roboto:wght@300&family=Tapestry&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 
-    <title>Project 2</title>
+    <title>Project 3</title>
 </head>
 
+
+
 <body>
-<div class="background">
+<div class="background" id="main">
     <div id="wrapper">
-        <header>
+    <header>
 
-            <div class = "site_name">Pork Belly</div>
-            <nav>
-                <ul class="nav_links">
-                    <li><a href="index.html">Team Profile</a></li>
-                    <li><a href="industry_data.html">Industry Data</a></li>
-                    <li><a href="it_work.html">IT Work</a></li>
-                    <li><a href="it_technologies.html">IT Technologies</a></li>
-                    <li><a href="project_ideas.html">Project Ideas</a></li>
-                    <li><a href="group_reflection.html">Group Reflection</a></li>
+        <div class = "site_name">Pork Belly<br></div>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+        <div id="mySidenav" class="sidenav">
+            
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ul class="nav_links">
+                <li><a href="index.html">Team Profile</a></li>
+                <li><a href="tools.html">Tools</a></li>
+                <li><a href="project_description.html">Project Description</a></li>
+                <li><a href="group_reflection.html">Group Reflection</a></li>
 
-                </ul>
+            </ul>
 
-            </nav>
-        </header>
+        </div>
+    </header>
     </div>
     <div id="wrapper_box">
-        <div class="page_name">
-            <div class="page_name_text">
-                Citation</div>
-        </div>
+    <div class="page_name">
+        <div class="page_name_text">
+        Project Description</div>
+    </div>
     </div>
     <div id="wrapper">
-        <div class="overlay">
-            <div class="content">
-                <div class="row">
-                    <div class="column">
-                        <div class="citation">
-                            <h2>Ideal Jobs</h2>
-                            <p>
- 
-                               1 Glassdoor.com.au. 2022. What does a Software Developer do? Role & Responsibilities. [online] Available at: <https://www.glassdoor.com.au/Career/software-developer- career_KO0,18.htm (1> [Accessed 27 April 2022].<br><br>
-                                 
-                               2 Glassdoor.com.au. 2022. What does a Game Design do? Role & Responsibilities. [online] Available at: <https://www.glassdoor.com.au/Career/game-design-career_KO0,11.htm> [Accessed 26 April 2022].<br><br>
-                                 
-                              3  Glassdoor.com.au. 2022. What does a Security Architect do? Role & Responsibilities. [online] Available at: <https://www.glassdoor.com.au/Career/security-architect-career_KO0,18.htm> [Accessed 26 April 2022].<br><br>
-                                 
-                              4  Glassdoor.com.au. 2022. What does a Data Analyst do? Role & Responsibilities. [online] Available at: <https://www.glassdoor.com.au/Career/data-analyst-career_KO0,12.htm> [Accessed 26 April 2022].</p>
-                        <h3>Industry Data</h3>
-                            <p>1 Coursera. 2022. [online] Available at: <https://www.coursera.org/articles/key-it-skills-for-your-career> [Accessed 29 April 2022]. <br><br>
-                                2 Doyle, A., 2021. Important Skills for Information Technology (IT) Jobs. [online] The Balance Careers. Available at: <https://www.thebalancecareers.com/list-of-information-technology-it-skills-2062410> [Accessed 29 April 2022]. 
+    <div class="overlay">
 
-                            </p>
-                        <h2>IT Technologies</h3>
-                        <h3>Cybersecurity </h2>
-                        <p>(1) Watters, A., 2022. Top 50 Cybersecurity Statistics, Figures and Facts. [online] Default. Available at: <https://connect.comptia.org/blog/cyber-security-stats-facts#:~:text=Cybersecurity%20Job%20Statistics&text=In%20fact%2C%20it's%20estimated%20that,cybersecurity%20pro%20is%20%24103%2C%20590.> [Accessed 18 April 2022]. <br><br>
- 
-                            (2)
-                            Mello Jr, J., 2022. 5 emerging security technologies set to level the battlefield. [online] TechBeacon. Available at: <https://techbeacon.com/security/5-emerging-security-technologies-set-level-battlefield> [Accessed 18 April 2022]. <br><br>
-                             
-                            (3)
-                            NetQuest. 2022. What is The Future of Cybersecurity? | Trends & Emerging Technologies - NetQuest. [online] Available at: <https://netquestcorp.com/what-is-the-future-of-cybersecurity-trends-emerging-technologies/#:~:text=Artificial%20intelligence%20(AI)%2C%20machine,to%20address%20pressing%20protection%20issues.> [Accessed 18 April 2022].</p>
-                        <h3>Autonomous Vehicles</h3>
-                        <p>1 Sae.org. 2022. [online] Available at: <https://www.sae.org/about/> [Accessed 19 April 2022]. <br><br>
-                            2 Sae.org. 2022. [online] Available at: <https://www.sae.org/news/2019/01/sae-updates-j3016-automated-driving-graphic/> [Accessed 19 April 2022]. <br><br>
-                            3 Pollard, T., 2022. What are autonomous car levels? Levels 1 to 5 of driverless vehicle tech explained. [online] CAR Magazine. Available at: <https://www.carmagazine.co.uk/car-news/tech/autonomous-car-levels-different-driverless-technology-levels-explained/> [Accessed 18 April 2022]. <br><br>    
-                            4 Tesla.com. n.d. Autopilot and Full Self-Driving Capability. [online] Available at: <https://www.tesla.com/en_AU/support/autopilot#:~:text=Autopilot%20comes%20standard%20on%20every,and%20Full%20Self%2DDriving%20Capability.> [Accessed 19 April 2022]. <br><br>
-                            5 NHTSA. 2022. Automated Vehicles for Safety | NHTSA. [online] Available at: <https://www.nhtsa.gov/technology-innovation/automated-vehicles-safety> [Accessed 19 April 2022]. <br><br>
-                            6 Piper, K., n.d. It’s 2020. Where are our self-driving cars?. [online] Vox. Available at: <https://www.vox.com/future-perfect/2020/2/14/21063487/self-driving-cars-autonomous-vehicles-waymo-cruise-uber> [Accessed 19 April 2022]. <br><br>
-                            7 Hayes, A., 2022. The Unintended Consequences of Self-Driving Cars. [online] Investopedia. Available at: <https://www.investopedia.com/articles/investing/090215/unintended-consequences-selfdriving-cars.asp#:~:text=The%20prospect%20of%20widespread%20use,efficiency%20and%20reduce%20traffic%20congestion.> [Accessed 19 April 2022].<br><br>
-                            8.May, A., Shepherd, S., Pfaffenbichler, P. and Emberger, g., 2020. The potential impacts of automated cars on urban transport: An exploratory analysis.
-                            </p>
-                            <h3>Small Computing Devices</h3>
-                            <p>1 Adafruit. (n.d.). Adafruit GEMMA M0 - Miniature wearable electronic platform. [online] www.adafruit.com. Available at: https://www.adafruit.com/product/3501 [Accessed 24 April 2022]]. <br><br>
-                                2 Arduino (2018). Arduino - Introduction. [online] Arduino.cc. Available at: https://www.arduino.cc/en/guide/introduction [Accessed 24 April 2022]. <br><br>
-                                 3ASUS Australia. (n.d.). Tinker Board｜AIoT & Industrial Solution｜ASUS Australia. [online] Available at: https://www.asus.com/au/Networking-IoT-Servers/AIoT-Industrial-Solutions/All-series/Tinker-Board/ [Accessed 24 April 2022]. <br><br>
-                                4 au.rs-online.com. (n.d.). Everything You Need To Know About Microcontrollers | RS Australia. [online] Available at: https://au.rs-online.com/web/generalDisplay.html?id=ideas-and-advice/microcontrollers-guide [Accessed 24 April 2022] <br><br>
-                               5  Burker, J. (n.d.). Puppet Show by Josh Burker. [online] Available at: https://makeymakey.com/blogs/how-to-instructions/puppet-show-by-josh-burker [Accessed 24 April 2022]. <br><br>
-                                6 Dimitrov, K. (2016). DS18B20 (Digital Temperature Sensor) and Arduino. [online] Available at: https://create.arduino.cc/projecthub/TheGadgetBoy/ds18b20-digital-temperature-sensor-and-arduino-9cc806?ref=platform&ref_id=424_popular___&offset=2 [Accessed 24 April 2022]. <br><br>
-                                7 Fernando, S. (2018). Bluetooth Controlled Car. [online] Available at: https://create.arduino.cc/projecthub/samanfern/bluetooth-controlled-car-d5d9ca?ref=platform&ref_id=424_popular___&offset=3 [Accessed 24 April 2022]. <br><br>
-                                8 Joylabz Official Makey Makey Store. (2022). Our Mission to Encourage Young Inventors - Makey Makey. [online] Available at: https://makeymakey.com/pages/mission [Accessed 24 April 2022]. <br><br>
-                                9 Joylabz Official Makey Makey Store. (n.d.). First Time Set Up! Basic How-to Guide. [online] Available at: https://makeymakey.com/blogs/how-to-instructions/first-time-set-up-basic-how-to-guide [Accessed 24 April 2022]. <br><br>
-                                10 Kay, G. (2022). Elon Musk says Neuralink’s brain chip will be ‘similar in complexity level to smart watches’. [online] Business Insider. Available at: https://www.businessinsider.com/elon-musk-neuralink-brain-chip-similar-complexity-smartwatch-2022-4 [Accessed 27 April 2022]. <br><br>
-                               11  Pullen, J. (2020). RadioGlobe - Spin & Search over 2000 Radio Stations | Open Source. [online] Available at: https://www.youtube.com/watch?v=AYu34vMpHRk [Accessed 24 April 2022]. <br><br>
-                                12 Tardi, C. (2021). Moore’s Law. [online] Investopedia. Available at: https://www.investopedia.com/terms/m/mooreslaw.asp [Accessed 24 April 2022]. <br><br>
-                                13 The dark side of electronic waste recycling. (2019). YouTube. Available at: https://www.youtube.com/watch?v=vufLW4xOsS4 [Accessed 24 April 2022]. <br><br>
-                                14 UDOO. (2021). UDOO BOLT: Raising the Maker World to the Next Level. [online] Available at: https://www.kickstarter.com/projects/udoo/udoo-bolt-raising-the-maker-world-to-the-next-leve [Accessed 24 April 2022]. <br><br>
-                               15 www.elecrow.com. (n.d.). NodeMCU V2 ESP8266 Development Board. [online] Available at: https://www.elecrow.com/nodemcu-v2-esp8266-development-board-p-1583.html [Accessed 24 April 2022].
-                                </p>
-                                <h3>Robotics</h3>
-                                <p>1 Francois Schmitt, Olivier Piccin, Laurent Barbe, Bernard Bayle. (2018) Soft Robots Manufacturing: A review. [online]https://www.frontiersin.org/articles/10.3389/frobt.2018.00084/full [Accessed 24 April 2022] <br><br>
-                                    2 Zheng Wang, Jiuh-Biling Sheu, Chung-Piaw Teo, Guiqin Xue.(2021) Robot Scheduling for Mobile-Rack Warehouses: Human–Robot Coordinated Order Picking Systems. [online] https://onlinelibrary-wiley-com.ezproxy.lib.rmit.edu.au/doi/full/10.1111/poms.13406 [Accessed 24 April 2022]</p>
-                        <h2>IT Professionals</h2>
-                        <h3>Day in the life of a Cyber Security Analyst
-                        </h3>
-                        <p>Cybint. 2022. A Day in the Life of a Cyber Security Analyst. [online] Available at: <https://www.cybintsolutions.com/day-of-cyber-security-analyst/> [Accessed 28 April 2022]. (1) <br><br>
- 
-                            Youtube.com. 2022. [online] Available at: <https://www.youtube.com/watch?v=uHy3oM7NnoU> [Accessed 28 April 2022]. (2)<br><br>
-                             
-                            Indeed Career Guide. 2022. What Is a Cyber Security Analyst? (With Job Duties and Salary). [online] Available at: <https://au.indeed.com/career-advice/finding-a-job/what-is-a-cyber-security-analyst> [Accessed 28 April 2022]. (3)</p>
-                        <h3>The life of a web developer
-                        </h3>
-                        <p>Youtube.com. A Day in the Life of a Web Developer | #devsLife. [online] Available at: <https://www.youtube.com/watch?v=B1WGJoTF5EY> [Accessed 28 April 2022]. <br>
+        <div class="content">
+            <div class="row">
+                <div class="column">
+                    <h2>Citation</h2>
+                    <p>Risks<br>
+                        Attorney-General Department. 2022. Privacy. [online] Available at: <https://www.ag.gov.au/rights-and-protections/privacy> [Accessed 15 May 2022].<br>
+                        Findandconnect.gov.au. 2022. Information Privacy Act 2000 - Summary | Find & Connect. [online] Available at: <https://www.findandconnect.gov.au/guide/vic/E000605> [Accessed 15 May 2022].<br>
+                        Findandconnect.gov.au. 2022. Privacy and Data Protection Act 2014 - Summary | Find & Connect. [online] Available at: <https://www.findandconnect.gov.au/guide/vic/E001025> [Accessed 15 May 2022].</p>
+                        
+                        
+                    
 
-                            Youtube.com. A Day in the Life of a Web Developer. [online] Available at: <https://www.youtube.com/watch?v=SmxrUmaAOz0> [Accessed 28 April 2022].
-                            </p>
-                        <h3>The life of a Data analysis. 
+        </div>
+            <div class="row2">
 
-                        </h3>
-                        <p>
-                            Day in the Life of a Data Analyst. [online]  Available at;<https://www.youtube.com/watch?v=r0vLQvJ3piE>[Accessed 29 April 2022]. <br><br>
-                            
-                            Day in the Life of a Data Analyst (Work from home). [online] Available at<https://www.youtube.com/watch?v=r0vLQvJ3piE> [Accessed 29 April 2022].
-                            </p>
-                        <h3>Day in the life of a Software Engineer
-                        </h3>
-                        <p>Code a New Career | ComputerScience.org. 2022. Day in the Life of a Software Engineer | ComputerScience.org. [online] Available at: <https://www.computerscience.org/software-engineering/careers/software-engineer/day-in-the-life/> [Accessed 21 April 2022]. (1) <br><br>
- 
-                            ConnectED (2015) Day at Work: Software Engineer. March 18 2015, Available at: https://www.youtube.com/watch?v=vt79JcPfZQA (Accessed: 21 April 2022). (Time stamps) 
-                            </p>
-                        <h3>Day in the life of a Game design</h3>
-                        <p>A day in game design: Available at https://www.youtube.com/watch?v=SiXb3bp1l0k (Accessed: 1/05/2022) <br><br>
-                            A day of life of a japan game programmer: Available at https://www.youtube.com/watch?v=e_TxH59MclA  (Accessed: 1/05/2022)</p>
-                                </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </div>
-    </body>
+</body>
 </div>
 </html>

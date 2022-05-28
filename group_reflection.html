@@ -6,31 +6,33 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Pacifico&family=Patrick+Hand&family=Permanent+Marker&family=Roboto+Mono:ital,wght@1,100&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 
-    <title>Project 2</title>
+    <title>Project 3</title>
 </head>
 
 <body>
-<div class="background">
-    <div id="wrapper">
+    <div class="background" id="main">
+        <div id="wrapper">
         <header>
-
-            <div class = "site_name">Pork Belly</div>
-            <nav>
+    
+            <div class = "site_name">Pork Belly<br></div>
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+            <div id="mySidenav" class="sidenav">
+                
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <ul class="nav_links">
                     <li><a href="index.html">Team Profile</a></li>
-                    <li><a href="industry_data.html">Industry Data</a></li>
-                    <li><a href="it_work.html">IT Work</a></li>
-                    <li><a href="it_technologies.html">IT Technologies</a></li>
-                    <li><a href="project_ideas.html">Project Ideas</a></li>
+                    <li><a href="tools.html">Tools</a></li>
+                    <li><a href="project_description.html">Project Description</a></li>
                     <li><a href="group_reflection.html">Group Reflection</a></li>
-
+    
                 </ul>
-
-            </nav>
+    
+            </div>
         </header>
-    </div>
-    <div id="wrapper_box">
+        </div>
+        <div id="wrapper_box">
         <div class="page_name">
             <div class="page_name_text">
                 Group Reflection</div>
